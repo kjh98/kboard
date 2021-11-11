@@ -5,6 +5,7 @@
 
 .reply {
 	list-style: none;
+    margin-top: 60px;
 }
 .button {
 	text-align: center;
@@ -85,6 +86,7 @@
 }
 .board_button_modify{
     float: right;
+    margin: 5px;
 }
 .board_button_del{
     background-color: #007bff;
@@ -181,3 +183,12 @@
     color: #fff;
 }
 
+
+
+
+
+/*말줄임 처리*/
+.table td{
+    white-space: nowrap;
+    overflow: hidden;
+}

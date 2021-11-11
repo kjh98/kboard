@@ -9,8 +9,9 @@
 <title>로그인</title>
 </head>
 <body>
+<div id="nav"> <%@ include file="../include/nav.jsp"%></div>
 	<h1>
-		<a href="#" class="login_text">로그인 화면</a>
+		<a href="#" class="login_text">로그인 화면123</a>
 	</h1>
 	<div class="login">
 		<form name="homeForm" method="post" action="/member/login">
@@ -19,7 +20,6 @@
 					<label for="userId"></label> <input type="text" id="userId"
 						name="userId" placeholder="아이디">
 				</div>
-				<hr> 
 				<div>
 					<label for="userPass"></label> <input type="password" id="userPass"
 						name="userPass" placeholder="비밀번호">

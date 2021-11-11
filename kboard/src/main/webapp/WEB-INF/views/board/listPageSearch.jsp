@@ -11,6 +11,7 @@
 	<div id="nav">
 		<%@ include file="../include/nav.jsp"%>
 	</div>
+	<audio src="/resources/audio/turnan.mp3" id="a0">aa</audio>
 	<div class="time"></div>
 	<div class="calendar"></div>
 
@@ -112,7 +113,7 @@
 		$("#time").hide();
 
 
-		$(".nav1 li:nth-of-type(5)").click(function() {
+		$(".nav1 li:nth-of-type(3)").click(function() {
 			$(".inner_index").css("display","none");
 			$("#calendarForm").show();
 			$("#date").show();

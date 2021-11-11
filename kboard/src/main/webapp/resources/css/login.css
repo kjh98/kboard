@@ -17,7 +17,7 @@ body {
 	display: block;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 14%;
 }
 
 input {
@@ -34,6 +34,7 @@ input {
 	background-color: #FCF2CE;
 	color: #b5c1c1;
 	border: none;
+	margin-bottom: 10px;
 }
 .login_btn > a > button {
 	width: 100%;
@@ -41,4 +42,5 @@ input {
 	background-color: #FCF2CE;
 	color: #b5c1c1;
 	border: none;
+
 }
